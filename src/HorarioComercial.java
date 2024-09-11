@@ -4,10 +4,28 @@ public class HorarioComercial {
     public static void main(String[] args) {
         
         Scanner tec = new Scanner(System.in);
-        int HorasAtual,MinutoAtual;
-        
-        System.out.print("Qual o horário? ");
-        HorasAtual=tec.nextInt();
+        int HorasAtual=0,MinutoAtual=0;
+        boolean HorasVF = false;
+        boolean MinVF = false;
+
+        while (HorasVF==false) {
+            System.out.print("Qual o horário? ");
+            HorasAtual=tec.nextInt();
+            if(HorasAtual>=0 && HorasAtual<=23){
+                HorasVF=true;
+            }else if(HorasAtual<0 && HorasAtual>23){
+                System.out.println("Digite o Horario corretamente...");
+            }
+        }
+        while (MinVF==false) {
+            System.out.print("Qual o horário? ");
+            HorasAtual=tec.nextInt();
+            if(MinutoAtual>=0 && MinutoAtual<=59){
+                MinVF=true;
+            }else if(HorasAtual<0 && HorasAtual>59){
+                System.out.println("Digite o Horario corretamente...");
+            }
+        }
         System.out.print("Qual o Minuto? ");
         MinutoAtual=tec.nextInt();
         System.out.println("/////////////////");
