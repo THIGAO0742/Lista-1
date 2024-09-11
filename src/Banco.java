@@ -6,7 +6,7 @@ public class Banco {
     public static void main(String[] args) {
         
         Scanner tec = new Scanner(System.in);
-        float valorEmprestimo,valorParcela,salario,portcetagem;
+        float valorEmprestimo,valorParcela,salario;
         int parcelas;
         
 
