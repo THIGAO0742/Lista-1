@@ -1,4 +1,4 @@
-<h1 align="center"> Ecommerce </h1>
+<h1 align="center"> LISTA1 </h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -39,13 +39,6 @@ $ git clone https://github.com/analuisadev/E-Commerce.git
 
 # Vá para o ropositório
 $ cd lista1
-
-
-xpo
-```
-## :memo: Licença
-
-
 
 ---
 
